@@ -9,7 +9,7 @@
 		"java.server.launchMode": "Standard",
 		"editor.cursorBlinking": "expand",
 		"editor.cursorStyle": "block",
-        "workbench.colorTheme": "Monokai Dimmed"
+        "workbench.colorTheme": "Kimbie Dark"
     },
 	"extensions": {
 		"recommendations": [
@@ -18,5 +18,18 @@
 			"vscjava.vscode-java-test",
 			"redhat.fabric8-analytics"
 		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "java",
+				"name": "My clear run",
+				"request": "attach",
+				"hostName": "localhost",
+				"port": 5005
+			}
+		],
+		"compounds": []
 	}
 }
