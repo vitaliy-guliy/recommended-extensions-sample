@@ -5,31 +5,27 @@
 			"path": "/projects/recommended-extensions-sample"
 		}
 	],
-    "settings": {
-		"java.server.launchMode": "Standard",
+	"settings": {
 		"editor.cursorBlinking": "expand",
 		"editor.cursorStyle": "block",
-        "workbench.colorTheme": "Kimbie Dark"
-    },
+		"workbench.colorTheme": "Kimbie Dark",
+		"workbench.iconTheme": "dot"
+	},
 	"extensions": {
 		"recommendations": [
-			"redhat.java",
-			"vscjava.vscode-java-debug",
-			"vscjava.vscode-java-test",
-			"redhat.fabric8-analytics"
+			"redhat.vscode-yaml",
+			"anweber.dot-icons"
 		]
 	},
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
 			{
-				"type": "java",
-				"name": "My clear run",
+				"type": "node",
+				"name": "My run",
 				"request": "attach",
-				"hostName": "localhost",
 				"port": 5005
 			}
-		],
-		"compounds": []
+		]
 	}
 }
