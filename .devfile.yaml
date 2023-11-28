@@ -10,5 +10,4 @@ components:
       memoryLimit: 2G
       env:
         - name: VSCODE_DEFAULT_WORKSPACE
-          value: $(PROJECTS_ROOT)/.code-workspace
-          # value: /projects/recommended-extensions-sample/.code-workspace
+          value: /projects/recommended-extensions-sample/.code-workspace
