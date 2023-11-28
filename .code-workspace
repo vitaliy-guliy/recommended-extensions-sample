@@ -9,6 +9,6 @@
 		"java.server.launchMode": "Standard",
 		"editor.cursorBlinking": "expand",
 		"editor.cursorStyle": "block",
-        "workbench.colorTheme": "Abyss"
+        "workbench.colorTheme": "Monokai Dimmed"
     }
 }
