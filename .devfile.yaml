@@ -11,4 +11,4 @@ components:
       env:
         - name: VSCODE_DEFAULT_WORKSPACE
           # value: $(PROJECTS_ROOT)/.code-workspace
-          value: /projects/recommended-extensions-sample
+          value: /projects/recommended-extensions-sample/.code-workspace
