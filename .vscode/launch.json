@@ -3,7 +3,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "My run (Attach) - Remote",
+            "name": "My run",
             "request": "attach",
             "hostName": "localhost",
             "port": 5005
