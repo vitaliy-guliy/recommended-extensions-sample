@@ -2,7 +2,7 @@
 	"folders": [
 		{
 			"name": "recommended-extensions-sample",
-			"path": "/projects/recommended-extensions-sample"
+			"path": "."
 		}
 	],
 	"settings": {
