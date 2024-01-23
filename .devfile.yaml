@@ -9,3 +9,7 @@ components:
       # image: quay.io/devfile/universal-developer-image:ubi8-latest
       image: quay.io/vgulyy/che-code-dev:sshd
       memoryLimit: 2G
+      endpoints:
+        - name: 'ssh'
+          targetPort: 2022
+          exposure: public
