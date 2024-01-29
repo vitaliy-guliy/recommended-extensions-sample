@@ -8,3 +8,7 @@ components:
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryLimit: 2G
+      env:
+        - name: VSCODE_DEFAULT_WORKSPACE
+          # value: $(PROJECTS_ROOT)/.code-workspace
+          value: /projects/recommended-extensions-sample/workspace-file

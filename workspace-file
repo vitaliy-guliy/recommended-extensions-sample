@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "recommended-extensions-sample",
+			"path": "/projects/recommended-extensions-sample"
+		}
+	],
+    "settings": {
+        "workbench.colorTheme": "Abyss"
+    }
+}
