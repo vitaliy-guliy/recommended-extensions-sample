@@ -1,10 +1,16 @@
 schemaVersion: 2.1.0
 
 metadata:
-  name: test-settings
+  name: test
 
 components:
   - name: tools
     container:
       image: quay.io/devfile/universal-developer-image:ubi8-latest
-      memoryLimit: 2G
+      memoryLimit: 4G
+      memoryRequest: 1G
+      cpuLimit: '2'
+      cpuRequest: '1'
+      env:
+        - name: TRUSTED_EXTENSIONS
+          value: "github.copilot,github.copilot-chat"
