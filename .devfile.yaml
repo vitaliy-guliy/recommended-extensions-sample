@@ -12,5 +12,5 @@ components:
       cpuLimit: '2'
       cpuRequest: '1'
       env:
-        - name: TRUSTED_EXTENSIONS
+        - name: VSCODE_TRUSTED_EXTENSIONS
           value: "github.copilot,github.copilot-chat"
