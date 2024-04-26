@@ -1,4 +1,4 @@
-schemaVersion: 2.1.0
+schemaVersion: 2.2.2
 
 metadata:
   name: test
@@ -12,5 +12,5 @@ components:
       cpuLimit: '2'
       cpuRequest: '1'
       env:
-        - name: VSCODE_TRUSTED_EXTENSIONS
-          value: "github.copilot,github.copilot-chat"
+        - name: TEST_BOOLEAN
+          value: true
